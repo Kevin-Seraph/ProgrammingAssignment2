@@ -17,7 +17,6 @@ cacheSolve <- function(x, ...) {
         
         inv = x$getinv()
         
-        # if the inverse has already been calculated
         if (!is.null(inv)){
                 message("getting cached data")
                 return(inv)
